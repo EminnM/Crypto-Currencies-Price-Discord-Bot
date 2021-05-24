@@ -2,7 +2,7 @@ from discord.ext import commands
 import discord
 import requests
 
-api_key = "NzcxNjY1NDc0MDE4NDc2MDUz.X5vbeQ.82UDHuuRlttWQPbIw4LDVFanAI8"
+api_key = ""
 @bot.event
 async def on_message(message):
     #print(message.content)
