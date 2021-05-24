@@ -2,7 +2,8 @@ from discord.ext import commands
 import discord
 import requests
 
-api_key = ""
+api_key = "NzgxMTgwMDQxOTk1NDg1MTg1.X754mw.B6ygdIpptS4tFgpp5KLkYXo-AW8"
+bot = commands.Bot(command_prefix = "!b")
 @bot.event
 async def on_message(message):
     #print(message.content)
